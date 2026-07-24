@@ -1,4 +1,4 @@
-# Portfólio de QA — Leonardo Carolino
+# Portfólio de QA — Testes Manuais — Leonardo Carolino
 
 Este repositório reúne projetos práticos desenvolvidos durante minha transição de carreira para Quality Assurance.
 
