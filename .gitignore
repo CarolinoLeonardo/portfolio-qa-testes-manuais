@@ -1,0 +1,9 @@
+# Arquivos temporários
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Dados locais ou sensíveis
+.env
+dados-reais/
