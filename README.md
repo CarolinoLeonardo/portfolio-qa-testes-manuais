@@ -21,8 +21,7 @@ Este repositório reúne projetos práticos desenvolvidos durante minha transiç
 
 ```text
 portfolio-qa/
-├── projetos/
-│   └── bugbank/
+├── projetos/bugbank/
 └── templates/
 ```
 
