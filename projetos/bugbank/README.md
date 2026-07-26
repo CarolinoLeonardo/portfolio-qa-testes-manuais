@@ -16,15 +16,6 @@ Praticar o processo de QA manual em uma aplicação web, desde a análise de req
 
 Validação das regras de criação de senha durante o cadastro de uma nova conta.
 
-## Artefatos
-
-| ID | Artefato | Resultado |
-|---|---|---|
-| REQ-CAD-001 | [Requisito de senha sequencial](01-requisitos/REQ-CAD-001.md) | Analisado |
-| CET-CAD-001 | [Cenário de teste](02-cenarios-de-teste/CET-CAD-001.md) | Executado |
-| CT-CAD-001 | [Caso de teste](03-casos-de-teste/CT-CAD-001.md) | Reprovado |
-| BUG-CAD-001 | [Bug report](04-bug-reports/BUG-CAD-001.md) | Aberto |
-
 ## Estrutura
 
 ```text
