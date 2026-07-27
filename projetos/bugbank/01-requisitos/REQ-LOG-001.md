@@ -1,4 +1,4 @@
-# REQ-LOG-001 — Obrigatoriedade dos campos de e-mail e senha
+# REQ-LOG-001 — Obrigatoriedade dos campos de e-mail e senha para efetuar o Login
 
 ## Descrição
 
