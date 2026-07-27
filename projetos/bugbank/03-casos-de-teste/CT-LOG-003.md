@@ -1,4 +1,4 @@
-**# CT-LOG-003 — Impedir login com os campos de e-mail e senha vazios
+*# CT-LOG-003 — Impedir login com os campos de e-mail e senha vazios
 
 ## Informações gerais
 
