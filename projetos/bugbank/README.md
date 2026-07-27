@@ -14,7 +14,7 @@ Praticar o processo de QA manual em uma aplicação web, desde a análise de req
 
 ## Escopo atual
 
-Validação das regras de criação de senha durante o cadastro de uma nova conta.
+Validação inicial das funcionalidades de cadastro e login, com foco em criação de conta, regra de senha sequencial e obrigatoriedade dos campos de e-mail e senha.
 
 ## Estrutura
 
