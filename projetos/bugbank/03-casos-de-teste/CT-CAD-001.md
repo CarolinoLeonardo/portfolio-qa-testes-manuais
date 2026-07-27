@@ -11,7 +11,6 @@
 | Data de execução | 22/07/2026 |
 | Executor | Leonardo Carolino |
 | Requisito relacionado | [REQ-CAD-001](../01-requisitos/REQ-CAD-001.md) |
-| Cenário relacionado | [CET-CAD-001](../02-cenarios-de-teste/CET-CAD-001.md) |
 | Status geral | **Reprovado** |
 
 ## Pré-requisitos
