@@ -4,7 +4,7 @@
 
 Na tela de login, os campos de e-mail e senha devem ser identificados visualmente como obrigatórios.
 
-A indicação de obrigatoriedade deve ser apresentada por meio de um asterisco vermelho (*) ou pelo texto “Obrigatório” junto ao rótulo de cada campo.
+A indicação de obrigatoriedade deve ser apresentada por meio de um asterisco vermelho (*).
 
 ## Critérios de aceite
 
@@ -23,5 +23,4 @@ A indicação de obrigatoriedade deve ser apresentada por meio de um asterisco v
 ## Dúvidas para refinamento
 
 1. A indicação deve ser obrigatoriamente um asterisco vermelho (*) ou pode ser utilizado o texto “Obrigatório”?
-2. Existe um padrão de cor, tamanho ou posicionamento para a indicação?
-3. A indicação de obrigatoriedade deve possuir algum recurso de acessibilidade, como texto para leitores de tela?
+
