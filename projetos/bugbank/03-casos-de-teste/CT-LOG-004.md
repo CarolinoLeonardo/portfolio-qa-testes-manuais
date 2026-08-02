@@ -1,4 +1,4 @@
-# CT-LOG-004 — Validar a indicação de obrigatoriedade de preenchimento dos campos de e-mail e senha
+# CT-LOG-004 — Validar a indicação visual que os campos E-mail e Senha na tela de Login são obrigatórios.
 
 ## Informações gerais
 
