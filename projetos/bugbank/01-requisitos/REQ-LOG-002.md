@@ -1,4 +1,4 @@
-# REQ-LOG-002 — Indicação de obrigatoriedade dos campos de e-mail e senha
+# REQ-LOG-002 — Indicação visual que Email e Senha são campos obrigatórios
 
 ## Descrição
 
