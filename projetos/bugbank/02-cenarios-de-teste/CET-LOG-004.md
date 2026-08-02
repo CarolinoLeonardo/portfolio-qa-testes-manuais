@@ -1,4 +1,4 @@
-# CET-LOG-004 — Validar a indicação de obrigatoriedade de preenchimento dos campos de e-mail e senha
+# CET-LOG-004 — Validar a indicação visual de obrigatoriedade de preenchimento dos campos de e-mail e senha
 
 **Dado** que estou na tela de login do sistema  
 **Quando** observo os campos “E-mail” e “Senha”  
