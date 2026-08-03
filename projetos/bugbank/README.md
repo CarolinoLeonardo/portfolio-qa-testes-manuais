@@ -73,15 +73,16 @@ O projeto pretende cobrir gradualmente os seguintes módulos:
 
 ## Requisitos documentados
 
-| Código                                      | Requisito                                                         | Status   |
-| ------------------------------------------- | ----------------------------------------------------------------- | -------- |
-| [REQ-CAD-001](01-requisitos/REQ-CAD-001.md) | Bloqueio de senha sequencial                                      | Entregue |
-| [REQ-CAD-002](01-requisitos/REQ-CAD-002.md) | Cadastro de novo usuário                                          | Entregue |
-| [REQ-LOG-001](01-requisitos/REQ-LOG-001.md) | Obrigatoriedade dos campos de e-mail e senha para efetuar o login | Entregue |
-| [REQ-LOG-002](01-requisitos/REQ-LOG-002.md) | Indicação visual de que e-mail e senha são campos obrigatórios    | Entregue |
-| [REQ-LOG-003](01-requisitos/REQ-LOG-003.md) | Tentativa de acesso sem preencher os campos obrigatórios          | Entregue |
+| Código                                      | Requisito                                                         | Status da documentação | Resultado dos testes            |
+| ------------------------------------------- | ----------------------------------------------------------------- | ---------------------- | ------------------------------- |
+| [REQ-CAD-001](01-requisitos/REQ-CAD-001.md) | Bloqueio de senha sequencial                                      | Entregue               | ❌ Reprovado                     |
+| [REQ-CAD-002](01-requisitos/REQ-CAD-002.md) | Cadastro de novo usuário                                          | Entregue               | ✅ Aprovado                      |
+| [REQ-LOG-001](01-requisitos/REQ-LOG-001.md) | Obrigatoriedade dos campos de e-mail e senha para efetuar o login | Entregue               | ✅ Aprovado — 3 casos executados |
+| [REQ-LOG-002](01-requisitos/REQ-LOG-002.md) | Indicação visual de que e-mail e senha são campos obrigatórios    | Entregue               | ❌ Reprovado                     |
+| [REQ-LOG-003](01-requisitos/REQ-LOG-003.md) | Tentativa de acesso sem preencher os campos obrigatórios          | Entregue               | ❌ Reprovado                     |
 
-Novos requisitos serão adicionados conforme o avanço da análise funcional e dos testes exploratórios.
+Novos requisitos serão adicionados conforme o avanço da análise funcional e das sessões de testes exploratórios.
+
 
 ---
 
