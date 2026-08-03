@@ -1,63 +1,93 @@
-# Portfólio de QA — Testes Manuais -- Por Leonardo Carolino
+# Projeto de Testes Manuais — BugBank
 
-Este repositório reúne projetos práticos de Quality Assurance desenvolvidos por **Leonardo Carolino** durante sua transição de carreira para a área de tecnologia.
+[Voltar ao portfólio](../../README.md)
 
-O objetivo é demonstrar conhecimentos em planejamento, documentação, execução e acompanhamento de testes manuais.
+Este projeto apresenta o planejamento, a documentação e a execução de testes manuais na aplicação web [BugBank](https://bugbank.netlify.app/).
 
----
-
-## Projetos
-
-| Projeto                               | Tipo de teste                             | Status       |
-| ------------------------------------- | ----------------------------------------- | ------------ |
-| [BugBank](projetos/bugbank/README.md) | Testes manuais funcionais e exploratórios | Em andamento |
+O BugBank simula operações de uma aplicação bancária e foi desenvolvido para a prática de testes de software.
 
 ---
 
-## Projeto BugBank
+## Informações do projeto
 
-O [BugBank](https://bugbank.netlify.app/) é uma aplicação bancária web criada para a prática de testes de software.
+| Informação     | Descrição                |
+| -------------- | ------------------------ |
+| Aplicação      | BugBank                  |
+| Plataforma     | Web                      |
+| Tipos de teste | Funcional e exploratório |
+| Responsável    | Leonardo Carolino        |
+| Início         | Julho de 2026            |
+| Status         | Em andamento             |
 
-Neste projeto, os testes são desenvolvidos com base nos [requisitos funcionais da aplicação](https://bugbank.netlify.app/requirements) e também em comportamentos identificados durante testes exploratórios.
+---
 
-### Escopo
+## Objetivo
 
-Os testes abrangem os seguintes módulos:
+Praticar o processo de QA manual, incluindo:
 
-* Login;
-* Cadastro;
-* Transferência;
-* Extrato.
+* análise de requisitos;
+* criação de cenários de teste;
+* elaboração e execução de casos de teste;
+* realização de testes exploratórios;
+* registro de defeitos;
+* organização dos artefatos;
+* rastreabilidade entre requisitos, testes e bugs.
 
-Os módulos de Pagamento e Saque ainda aparecem como funcionalidades em desenvolvimento na aplicação.
+---
 
-### Atividades realizadas
+## Abordagem de testes
 
-* Análise de requisitos;
-* Criação de cenários de teste;
-* Elaboração e execução de casos de teste;
-* Realização de testes exploratórios;
-* Registro de defeitos;
-* Organização de evidências;
-* Rastreabilidade entre requisitos, testes e bugs.
+### Testes baseados em requisitos
+
+Parte dos cenários e casos de teste é criada com base nos [requisitos funcionais publicados pelo BugBank](https://bugbank.netlify.app/requirements).
+
+### Testes exploratórios
+
+O projeto também inclui testes criados a partir da exploração livre da aplicação.
+
+Comportamentos relevantes encontrados durante essas sessões podem gerar:
+
+* requisitos complementares;
+* cenários de teste;
+* casos de teste;
+* relatórios de bug.
+
+A origem exploratória será identificada na documentação correspondente.
+
+---
+
+## Escopo funcional
+
+O projeto pretende cobrir gradualmente os seguintes módulos:
+
+| Módulo        | Situação no projeto |
+| ------------- | ------------------- |
+| Cadastro      | Em andamento        |
+| Login         | Em andamento        |
+| Transferência | Planejado           |
+| Pagamento     | Planejado           |
+| Extrato       | Planejado           |
+| Saque         | Planejado           |
 
 ---
 
 ## Requisitos documentados
 
-| Código                                                       | Requisito                                                | Origem                 | Status   |
-| ------------------------------------------------------------ | -------------------------------------------------------- | ---------------------- | -------- |
-| [REQ-CAD-001](projetos/bugbank/01-requisitos/REQ-CAD-001.md) | Bloqueio de senha sequencial                             | Teste exploratório     | Entregue |
-| [REQ-CAD-002](projetos/bugbank/01-requisitos/REQ-CAD-002.md) | Cadastro de novo usuário                                 | Requisito funcional    | Entregue |
-| [REQ-LOG-001](projetos/bugbank/01-requisitos/REQ-LOG-001.md) | Obrigatoriedade dos campos de e-mail e senha             | Requisito funcional    | Entregue |
-| [REQ-LOG-002](projetos/bugbank/01-requisitos/REQ-LOG-002.md) | Indicação visual dos campos obrigatórios                 | Requisito complementar | Entregue |
-| [REQ-LOG-003](projetos/bugbank/01-requisitos/REQ-LOG-003.md) | Tentativa de acesso sem preencher os campos obrigatórios | Requisito funcional    | Entregue |
+| Código                                      | Requisito                                                         | Status   |
+| ------------------------------------------- | ----------------------------------------------------------------- | -------- |
+| [REQ-CAD-001](01-requisitos/REQ-CAD-001.md) | Bloqueio de senha sequencial                                      | Entregue |
+| [REQ-CAD-002](01-requisitos/REQ-CAD-002.md) | Cadastro de novo usuário                                          | Entregue |
+| [REQ-LOG-001](01-requisitos/REQ-LOG-001.md) | Obrigatoriedade dos campos de e-mail e senha para efetuar o login | Entregue |
+| [REQ-LOG-002](01-requisitos/REQ-LOG-002.md) | Indicação visual de que e-mail e senha são campos obrigatórios    | Entregue |
+| [REQ-LOG-003](01-requisitos/REQ-LOG-003.md) | Tentativa de acesso sem preencher os campos obrigatórios          | Entregue |
 
-Novos requisitos, cenários e casos de teste serão adicionados conforme o avanço do projeto e das sessões de testes exploratórios.
+Novos requisitos serão adicionados conforme o avanço da análise funcional e dos testes exploratórios.
 
 ---
 
-## Convenção de códigos
+## Rastreabilidade
+
+Os documentos utilizam códigos padronizados para facilitar a ligação entre os artefatos.
 
 | Prefixo | Documento        |
 | ------- | ---------------- |
@@ -66,14 +96,18 @@ Novos requisitos, cenários e casos de teste serão adicionados conforme o avan�
 | `CT`    | Caso de teste    |
 | `BUG`   | Relatório de bug |
 
+Os módulos também recebem identificadores:
+
 | Código | Módulo        |
 | ------ | ------------- |
-| `LOG`  | Login         |
 | `CAD`  | Cadastro      |
+| `LOG`  | Login         |
 | `TRA`  | Transferência |
+| `PAG`  | Pagamento     |
 | `EXT`  | Extrato       |
+| `SAQ`  | Saque         |
 
-Exemplo de rastreabilidade:
+Exemplo:
 
 ```text
 REQ-LOG-003
@@ -87,37 +121,53 @@ BUG-LOG-003
 
 ---
 
-## Organização do repositório
+## Fluxo de trabalho
 
 ```text
-portfolio-qa-testes-manuais/
-├── projetos/
-│   └── bugbank/
-│       ├── 01-requisitos/
-│       ├── 02-cenarios-de-teste/
-│       ├── 03-casos-de-teste/
-│       ├── 04-bug-reports/
-│       ├── 05-anexos-originais/
-│       └── README.md
-├── templates/
-└── README.md
+Análise do requisito ou exploração da aplicação
+                        ↓
+             Criação do requisito
+                        ↓
+          Criação do cenário de teste
+                        ↓
+         Elaboração do caso de teste
+                        ↓
+             Execução do teste
+                        ↓
+       Registro do resultado e evidências
+                        ↓
+        Abertura do bug, quando necessário
 ```
 
 ---
 
-## Competências demonstradas
+## Estrutura do projeto
 
-* Testes manuais funcionais e exploratórios;
-* Análise e documentação de requisitos;
-* Criação e execução de casos de teste;
-* Registro e classificação de defeitos;
-* Organização de evidências;
-* Rastreabilidade entre artefatos de teste.
+```text
+bugbank/
+├── 01-requisitos/
+├── 02-cenarios-de-teste/
+├── 03-casos-de-teste/
+├── 04-bug-reports/
+├── 05-anexos-originais/
+└── README.md
+```
+
+| Diretório              | Conteúdo                                             |
+| ---------------------- | ---------------------------------------------------- |
+| `01-requisitos`        | Requisitos analisados e documentados                 |
+| `02-cenarios-de-teste` | Cenários de teste                                    |
+| `03-casos-de-teste`    | Casos de teste e resultados das execuções            |
+| `04-bug-reports`       | Defeitos encontrados                                 |
+| `05-anexos-originais`  | Documentos e imagens originais utilizados no projeto |
 
 ---
 
 ## Observações
 
 * O projeto está em desenvolvimento contínuo.
-* Os dados utilizados nos testes são fictícios.
-* Este repositório possui finalidade educacional e profissional.
+* Os requisitos podem ser refinados conforme novas informações forem identificadas.
+* Os dados utilizados nos testes são sintéticos.
+* A aplicação armazena suas informações localmente e não utiliza um banco de dados persistente.
+* Este projeto possui finalidade educacional e profissional.
+
