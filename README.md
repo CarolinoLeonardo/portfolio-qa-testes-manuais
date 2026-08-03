@@ -97,8 +97,7 @@ portfolio-qa-testes-manuais/
 │       ├── 02-cenarios-de-teste/
 │       ├── 03-casos-de-teste/
 │       ├── 04-bug-reports/
-│       ├── 05-evidencias/
-│       ├── 06-anexos-originais/
+│       ├── 05-anexos-originais/
 │       └── README.md
 ├── templates/
 └── README.md
