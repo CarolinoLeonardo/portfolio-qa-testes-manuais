@@ -22,7 +22,7 @@
 
 | Campo | Valor |
 |---|---|
-| e-mail | leonardo.qa@tempmail.com |
+| e-mail | leonardo.qa@tempemail.com |
 | senha | 102030 |
 
 ## Passos e resultados
