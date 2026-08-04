@@ -6,8 +6,8 @@ Após a validação das credenciais informadas, o sistema deve conceder acesso a
 
 ## Critérios de aceite
 
-- O sistema deve verificar se o e-mail do usuário informado está cadastrado.
-- O sistema deve verificar se a senha informada está correta.
+- O sistema deve verificar se o e-mail do usuário informado está cadastrado e válido.
+- O sistema deve verificar se a senha informada está cadastrada e válida.
 - O sistema autoriza o acesso à conta quando usuário e senha forem confirmados.
 - O sistema direciona o usuário para a página inicial da conta (Home).
 - A página Home deve ser carregada corretamente após o login.
