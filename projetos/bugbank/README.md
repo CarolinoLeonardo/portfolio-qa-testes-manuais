@@ -80,6 +80,8 @@ O projeto pretende cobrir gradualmente os seguintes módulos:
 | [REQ-LOG-001](01-requisitos/REQ-LOG-001.md) | Obrigatoriedade dos campos de e-mail e senha para efetuar o login | Entregue               | ✅ Aprovado — 3 casos executados |
 | [REQ-LOG-002](01-requisitos/REQ-LOG-002.md) | Indicação visual de que e-mail e senha são campos obrigatórios    | Entregue               | ❌ Reprovado                     |
 | [REQ-LOG-003](01-requisitos/REQ-LOG-003.md) | Tentativa de acesso sem preencher os campos obrigatórios          | Entregue               | ❌ Reprovado                     |
+| [REQ-LOG-004](./01-requisitos/REQ-LOG-004.md) | Não deve autorizar o acesso para usuários inválidos ou não cadastrados | Entregue | ✅ Aprovado |
+| [REQ-LOG-005](./01-requisitos/REQ-LOG-005.md) | Usuários válidos e cadastrados são direcionados para a home da conta | Entregue | ✅ Aprovado |
 
 Novos requisitos serão adicionados conforme o avanço da análise funcional e das sessões de testes exploratórios.
 
