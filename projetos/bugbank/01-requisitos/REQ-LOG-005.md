@@ -15,7 +15,7 @@ Após a validação das credenciais informadas, o sistema deve conceder acesso a
 ## Exemplos
 
 - Válido: Usuário cadastrado informa e-mail e senha válidos, o login é realizado e ele é direcionado para a página Home.
-- Inválido: Usuário informa e-mail ou senha válidos, o login não é realizado e ele permanece na página de acesso.
+- Inválido: Usuário informa e-mail e senha válidos, o login não é realizado e ele permanece na página de acesso.
 
 ## Dúvidas para refinamento
 
