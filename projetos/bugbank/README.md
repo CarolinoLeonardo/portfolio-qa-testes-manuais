@@ -63,7 +63,7 @@ O projeto pretende cobrir gradualmente os seguintes módulos:
 | Módulo        | Situação no projeto |
 | ------------- | ------------------- |
 | Cadastro      | Em andamento        |
-| Login         | Em andamento        |
+| Login         | Finalizado          |
 | Transferência | Planejado           |
 | Pagamento     | Planejado           |
 | Extrato       | Planejado           |
