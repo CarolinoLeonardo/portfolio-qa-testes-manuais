@@ -77,7 +77,7 @@ O projeto pretende cobrir gradualmente os seguintes módulos:
 | ------------------------------------------- | ----------------------------------------------------------------- | ---------------------- | ------------------------------- |
 | [REQ-CAD-001](01-requisitos/REQ-CAD-001.md) | Bloqueio de senha sequencial                                      | Entregue               | ❌ Reprovado                     |
 | [REQ-CAD-002](01-requisitos/REQ-CAD-002.md) | Cadastro de novo usuário                                          | Entregue               | ✅ Aprovado                      |
-| [REQ-LOG-001](01-requisitos/REQ-LOG-001.md) | Obrigatoriedade dos campos de e-mail e senha para efetuar o login | Entregue               | ✅ Aprovado — 3 casos executados |
+| [REQ-LOG-001](01-requisitos/REQ-LOG-001.md) | Obrigatoriedade dos campos de e-mail e senha para efetuar o login | Entregue               | ✅ Aprovado — 2 casos executados |
 | [REQ-LOG-002](01-requisitos/REQ-LOG-002.md) | Indicação visual de que e-mail e senha são campos obrigatórios    | Entregue               | ❌ Reprovado                     |
 | [REQ-LOG-003](01-requisitos/REQ-LOG-003.md) | Tentativa de acesso sem preencher os campos obrigatórios          | Entregue               | ❌ Reprovado                     |
 | [REQ-LOG-004](./01-requisitos/REQ-LOG-004.md) | Não deve autorizar o acesso para usuários inválidos ou não cadastrados | Entregue | ✅ Aprovado |
