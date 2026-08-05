@@ -9,12 +9,11 @@ O sistema deve exigir o preenchimento dos campos de e-mail e senha para permitir
 - O campo de e-mail deve ser obrigatório.
 - O campo de senha deve ser obrigatório.
 - O sistema não deve processar o login quando um dos campos obrigatórios estiver vazio.
-- O sistema não deve processar o login quando os dois campos obrigatórios estiverem vazios.
 
 ## Exemplos
 
-- **Válido:** preencher os campos de e-mail e senha antes de acionar o botão de login.
-- **Inválido:** tentar acessar o sistema deixando o campo de e-mail, o campo de senha ou ambos sem preenchimento.
+- **Válido:** Usuário não preenche um ou mais campos obrigatórios e o sistema não conclui o login.
+- **Inválido:** Usuário não preenche um ou mais campos obrigatórios e o sistema conclui o login.
 
 ## Dúvidas para refinamento
 
