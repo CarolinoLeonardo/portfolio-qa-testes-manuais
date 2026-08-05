@@ -65,9 +65,9 @@ O projeto pretende cobrir gradualmente os seguintes módulos:
 | Cadastro      | Em andamento        |
 | Login         | Finalizado          |
 | Transferência | Planejado           |
-| Pagamento     | Planejado           |
+| Pagamento     | Indisponível        |
 | Extrato       | Planejado           |
-| Saque         | Planejado           |
+| Saque         | Indisponível        |
 
 ---
 
